@@ -1,0 +1,23 @@
+{
+    "name": "toolbelt",
+    "version": "1.0.0",
+    "description": "A plugin for text editors which saves settings and plugins of the user",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csc301-winter-2018/project-team-12.git"
+    },
+    "author": "Team 12",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/csc301-winter-2018/project-team-12/issues"
+    },
+    "homepage": "https://github.com/csc301-winter-2018/project-team-12#readme",
+    "dependencies": {
+      "ejs": "^2.5.7",
+      "express": "4.16.2",
+      "path": "^0.12.7"
+    }
+  }

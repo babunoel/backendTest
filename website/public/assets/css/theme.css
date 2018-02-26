@@ -1,0 +1,153 @@
+html, body {
+    padding:0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans;
+  }
+  
+  body {
+    background: #e5e5e5;
+  }
+  
+  a {
+    color: #5ea1e4;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #333;
+    width: 100%;
+    height: 62px;
+  }
+  
+  header .menu-left {
+    float:left;
+    padding: 5px 10px;
+  }
+  header .menu-right {
+    float: right;
+    padding: 18px 20px;
+  }
+  
+  .btn {
+    background: #ccc;
+    color: #efefef;
+    border: 0;
+    outline: 0;
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-size : 14px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btn.btn-default {
+  
+  }
+  .btn.btn-success {
+  
+    background: #3bcc75;
+    color: white;
+  }
+  .btn.btn-success:hover {
+      background: #62daab;
+  }
+  
+  .btn.btn-link {
+    color: #efefef;
+    background: transparent;
+    text-decoration: underline;
+  }
+  
+  .btn.btn-lg{
+    
+    width: 60%;
+    padding: 10px 15px;
+    margin: 10px 20%;
+    font-size: 16px;
+  }
+  
+  .mid-center-page {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .mid-center-wrap {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .mid-center {
+    background: #fbfbfb;
+    width: 350px;
+    margin: 0 auto;
+    border : 1px solid #dbdada;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .mid-center .notice {
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin: 10px;
+    padding: 10px 0px;
+    color: #444;
+  }
+  
+  .input-group input {
+    width:100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  
+  #promo {
+    position: relative;
+  }
+  
+  #promo header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+  }
+  .promo-content {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -400px;
+    max-width: 800px;
+    width: 100%;
+  }
+  .promo-tagline {
+    font-size: 30px;
+    background: #0009;
+    color: #e4e7ec;
+    margin-bottom: 10px;
+    font-weight: 300;
+    display: inline-block;
+  }
+  .btn-promo {
+    display: inline-block;
+    font-size: 24px;
+    background: #43874b;
+    color: #def8cb;
+    margin-bottom: 10px;
+    outline: 0;
+    border: 0;
+    font-family: 'Source Sans Pro', sans;
+    padding: 5px 15px 5px 15px;
+    border-radius: 0;
+    box-shadow: 3px 3px 0 #93d1c4;
+  }
+  .btn-promo:hover {
+    background: #55965d;
+    box-shadow: 3px 3px 0 #baf0e5;
+  }
+  .promo-tagline h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }

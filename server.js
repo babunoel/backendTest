@@ -20,19 +20,25 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
+app.get('/api/test', (req, res)=> {
+	res.status(200).json({
+		"hello":"world"
+	});
+});
+
 // Login and signup routes
 app.get('/login', (req, res) => {
 	// TODO: redirect to /dashboard if authenticated
 
 	res.render('login.html')
-})
+});
 // Actual login route:
 // app.post('/login', (req, res) => { req.body.username, req.body.password })
 app.get('/signup', (req, res) => {
 	// TODO: redirect to /dashboard if authenticated
 
 	res.render('signup.html')
-})
+});
 
 // Actual signup route:
 // app.post('/signup', (req, res) => { req.body.username, req.body.password })
@@ -40,7 +46,7 @@ app.get('/dashboard', (req, res) => {
 	// TODO: redirect to /login if not authenticated
 
 	res.render('dashboard.html')
-})
+});
 
 // Process logout request
 app.get('/logout', (req, res) => {});
